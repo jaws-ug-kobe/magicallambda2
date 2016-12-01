@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "intent": "MagicalLambdaAcceptIntent",
+      "slots":[
+       {
+      		"name": "Answer",
+ 	     	"type": "AMAZON.LITERAL"
+    	}
+      ]
+    },
+    {
+      "intent": "MagicalLambdaAnswerIntent",
+      "slots": [
+        {
+          "name": "Confirm",
+          "type":  "LIST_OF_CONFIRM"
+        }
+      ]
+    },
+    {
+      "intent": "MagicalLambdaTeachIntent",
+      "slots":[
+       {
+      		"name": "Word",
+ 	     	"type": "AMAZON.LITERAL"
+    	}
+      ]
+    }
+   ]
+}
