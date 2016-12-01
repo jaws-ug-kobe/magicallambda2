@@ -1,0 +1,3 @@
+MagicalLambdaAcceptIntent my answer is {banana|Answer}
+MagicalLambdaAnswerIntent {Confirm}
+MagicalLambdaTeachIntent This is new word {word|Word}
